@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fliker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/assignment-1.css">
+
+
+</head>
+
+<body>
+    <!-- region navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img id="brand"
+                src="https://ru.seaicons.com/wp-content/uploads/2016/03/Flickr-icon-8.png"></a>
+        <input class="form-control mr-sm-2" type="search" id="inputTop" placeholder="Search" required
+            aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" onclick="find(0)" id="btnTop" type="submit">Search</button>
+
+    </nav>
+    <!-- region photo -->
+    <div class="container-fluid">
+        <!-- <img   src="https://images.pexels.com/photos/744667/pexels-photo-744667.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" data-toggle="modal" data-target="#myModal"> -->
+
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal"><img id="modal-backround" style="z-index: -1;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="modal_title">Modal Heading</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <p id="modal_body"></p>
+                        <img src="" alt="pic" id="modal_image">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <p id="modal_footer"></p>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center " id="card_region">
+
+                <div class="row" id="region">
+                    <div class="col-sm">
+                        <div class="d-flex justify-content-center" id="region">
+                            <div class="navbar navbar-expand navbar-dark justify-content-center "
+                                style="margin-top: 40vh;">
+                                <input type="text" id="inputCenter" placeholder="Search" required
+                                    class="form-control form-control-pliantext mx-2" style="width: 15rem">
+                                <button type="button" class="btn btn-success" onclick="find(1)"
+                                    id="btnCenter">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modaframe -->
+
+    <!-- plus button -->
+    <blockquote class="blockquote">
+        <footer class="blockquote-footer"><img src="https://www.iconsdb.com/icons/preview/red/plus-4-xxl.png" id="plus"
+                onclick="more()" style="width: 60px;height: 60px;margin-left:600px;visibility:hidden;" id="morebutton">
+        </footer>
+    </blockquote>
+    </div>
+
+
+
+    <script src="js/assignment-1.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

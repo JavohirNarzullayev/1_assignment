@@ -1,0 +1,135 @@
+{    "photo": {
+        "id": "49577723758",
+        "secret": "b455e550d7",
+        "server": "65535",
+        "farm": 66,
+        "dateuploaded": "1582534291",
+        "isfavorite": 0,
+        "license": 0,
+        "safety_level": 0,
+        "rotation": 0,
+        "originalsecret": "ce5b32d5c1",
+        "originalformat": "jpg",
+        "owner": {
+            "nsid": "129770412@N07",
+            "username": "nicholas.schnur",
+            "realname": "Nicholas Schnur",
+            "location": "",
+            "iconserver": "7473",
+            "iconfarm": 8,
+            "path_alias": "nicholas_schnur"
+        },
+        "title": {
+            "_content": "Manila"
+        },
+        "description": {
+            "_content": ""
+        },
+        "visibility": {
+            "ispublic": 1,
+            "isfriend": 0,
+            "isfamily": 0
+        },
+        "dates": {
+            "posted": "1582534291",
+            "taken": "2020-01-19 17:00:55",
+            "takengranularity": 0,
+            "takenunknown": 0,
+            "lastupdate": "1582534297"
+        },
+        "views": 8,
+        "editability": {
+            "cancomment": 0,
+            "canaddmeta": 0
+        },
+        "publiceditability": {
+            "cancomment": 1,
+            "canaddmeta": 0
+        },
+        "usage": {
+            "candownload": 1,
+            "canblog": 0,
+            "canprint": 0,
+            "canshare": 1
+        },
+        "comments": {
+            "_content": 0
+        },
+        "notes": {
+            "note": []
+        },
+        "people": {
+            "haspeople": 0
+        },
+        "tags": {
+            "tag": [
+                {
+                    "id": "129749082-49577723758-16719",
+                    "author": "129770412@N07",
+                    "authorname": "nicholas.schnur",
+                    "raw": "manila",
+                    "_content": "manila",
+                    "machine_tag": ""
+                },
+                {
+                    "id": "129749082-49577723758-6412",
+                    "author": "129770412@N07",
+                    "authorname": "nicholas.schnur",
+                    "raw": "Philippines",
+                    "_content": "philippines",
+                    "machine_tag": ""
+                },
+                {
+                    "id": "129749082-49577723758-85",
+                    "author": "129770412@N07",
+                    "authorname": "nicholas.schnur",
+                    "raw": "street",
+                    "_content": "street",
+                    "machine_tag": ""
+                },
+                {
+                    "id": "129749082-49577723758-364",
+                    "author": "129770412@N07",
+                    "authorname": "nicholas.schnur",
+                    "raw": "cats",
+                    "_content": "cats",
+                    "machine_tag": ""
+                },
+                {
+                    "id": "129749082-49577723758-1911",
+                    "author": "129770412@N07",
+                    "authorname": "nicholas.schnur",
+                    "raw": "fire",
+                    "_content": "fire",
+                    "machine_tag": ""
+                },
+                {
+                    "id": "129749082-49577723758-5953",
+                    "author": "129770412@N07",
+                    "authorname": "nicholas.schnur",
+                    "raw": "smoke",
+                    "_content": "smoke",
+                    "machine_tag": ""
+                },
+                {
+                    "id": "129749082-49577723758-2216",
+                    "author": "129770412@N07",
+                    "authorname": "nicholas.schnur",
+                    "raw": "fan",
+                    "_content": "fan",
+                    "machine_tag": ""
+                }
+            ]
+        },
+        "urls": {
+            "url": [
+                {
+                    "type": "photopage",
+                    "_content": "https:\/\/www.flickr.com\/photos\/nicholas_schnur\/49577723758\/"
+                }
+            ]
+        },
+        "media": "photo"
+    },
+    "stat": "ok"
+}
